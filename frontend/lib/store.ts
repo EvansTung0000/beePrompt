@@ -6,6 +6,7 @@ export const modelsGens: { [key: string]: string } = {
   "gpt-4-1106-preview": "gpt-4-turbo",
   "gpt-4-0125-preview": "gpt-4-turbo",
   "gpt-4-turbo-2024-04-09": "gpt-4-turbo",
+  "gpt-4o-2024-05-13": "gpt-4-o",
   "anthropic.claude-instant-v1": "claude-instant-v1",
   "anthropic.claude-v2": "claude-v2",
   "anthropic.claude-v2:1": "claude-v2.1",
@@ -23,7 +24,7 @@ export interface Message {
   role?: string;
   dtm?: string;
   model?: string;
-  done?: boolean
+  done?: boolean;
 }
 
 // セレクトボックス様モデルリスト
